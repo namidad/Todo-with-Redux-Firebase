@@ -5,13 +5,13 @@ const SignedInLinks = () => {
     return(
         <ul className="right">
             <li>
-                <NavLink to={"/create"}>New Project</NavLink>
+                <NavLink to={"/todo-with-redux-firebase/create"}>New Project</NavLink>
             </li>
             <li>
-                <NavLink to={"/"}>Log Out</NavLink>
+                <NavLink to={"/todo-with-redux-firebase/"}>Log Out</NavLink>
             </li>
             <li>
-                <NavLink to={"/"} className={"btn btn-floating pink lighten-1"}>OS</NavLink>
+                <NavLink to={"/todo-with-redux-firebase/"} className={"btn btn-floating pink lighten-1"}>OS</NavLink>
             </li>
         </ul>
     );

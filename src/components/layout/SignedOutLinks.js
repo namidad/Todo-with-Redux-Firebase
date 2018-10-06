@@ -5,10 +5,10 @@ const SignedOutLinks = () => {
     return(
         <ul className="right">
             <li>
-                <NavLink to={"/signup"}>Signup</NavLink>
+                <NavLink to={"/todo-with-redux-firebase/signup"}>Signup</NavLink>
             </li>
             <li>
-                <NavLink to={"/signin"}>Login</NavLink>
+                <NavLink to={"/todo-with-redux-firebase/signin"}>Login</NavLink>
             </li>
         </ul>
     );

@@ -14,11 +14,11 @@ class App extends Component {
           <div className="App">
             <Navbar/>
               <Switch>
-                  <Route exact path={"/"} component={Dashboard}/>
-                  <Route path={"/project/:id"} component={ProjectDetails} />
-                  <Route path={"/signin"} component={SignIn}/>
-                  <Route path={"/signup"} component={SignUp}/>
-                  <Route path={"/create"} component={CreateProject}/>
+                  <Route exact path={"/todo-with-redux-firebase/"} component={Dashboard}/>
+                  <Route path={"/todo-with-redux-firebase/project/:id"} component={ProjectDetails} />
+                  <Route path={"/todo-with-redux-firebase/signin"} component={SignIn}/>
+                  <Route path={"/todo-with-redux-firebase/signup"} component={SignUp}/>
+                  <Route path={"/todo-with-redux-firebase/create"} component={CreateProject}/>
               </Switch>
           </div>
         </BrowserRouter>
