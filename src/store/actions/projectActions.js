@@ -3,8 +3,8 @@ export const createProject = (project) => {
         const firestore = getFirestore();
         firestore.collection("projects").add({
             ...project,
-            authorFirstname: 'Oliwier',
-            authorLastname: 'Salamon',
+            authorFirstName: 'Oliwier',
+            authorLastName: 'Salamon',
             authorID: 12355,
             createdAt: new Date(),
         }).then(()=>{
