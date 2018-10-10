@@ -18,7 +18,7 @@ const Navbar = () => {
 
 const mapStateToProps = (state) => {
     return {
-        
+
     }
 };
 export default connect(mapStateToProps)(Navbar);
