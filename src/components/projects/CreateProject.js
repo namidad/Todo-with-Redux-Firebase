@@ -18,6 +18,7 @@ class CreateProject extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.createProject(this.state);
+        this.props.history.push("/todo-with-redux-firebase/");
     };
 
     render(){
@@ -37,7 +38,7 @@ class CreateProject extends Component {
 
                     <div className="input-field">
                         <label htmlFor="content"> Project Content</label>
-                        <textarea id="content" onChange={this.handleChange} className="materialized-textarea" />
+                        <textarea id="content" onChange={this.handleChange} className="materialize-textarea" />
                     </div>
 
                     <div className="input-field">
